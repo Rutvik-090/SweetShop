@@ -14,8 +14,9 @@ A full-stack web application to manage a sweet shop’s inventory — add, view,
 
 🧪 Fully tested backend (Jest + Supertest) and frontend
 
-🛠 Tech Stack
 
+
+🛠 Tech Stack :
 Layer	Tech
 
 Frontend	React + Tailwind CSS
