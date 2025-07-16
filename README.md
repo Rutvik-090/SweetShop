@@ -61,39 +61,6 @@ Make sure you have the following tools installed **before** setting up the proje
 
   
 
-## 📁 Project Structure
-SWEETSHOP/
-├── backend/                   # Backend (Node.js + Express)
-│   ├── config/
-│   │   └── db.js              # MongoDB connection setup
-│   ├── controllers/
-│   │   └── sweetController.js # All business logic for sweets
-│   ├── models/
-│   │   └── Sweet.js           # Mongoose model for sweets
-│   ├── routes/
-│   │   └── sweetRoutes.js     # Express routes for API endpoints
-│   ├── sweetRoutes.test.js    # Jest + Supertest backend tests
-│   ├── server.js              # App entry point
-│   └── .env                   # Environment variables for backend
-
-├── frontend/                  # Frontend (React)
-│   ├── public/                # Static assets
-│   └── src/
-│       ├── api/
-│       │   └── sweets.js      # Axios API functions
-│       ├── components/        # React components
-│       │   ├── Add.jsx        # Modal or page to add sweets
-│       │   ├── Footer.jsx     # Page footer
-│       │   ├── Home.jsx       # Main dashboard with buttons
-│       │   ├── Navbar.jsx     # Navigation bar
-│       │   ├── PurchaseSweets.jsx # Purchase interface
-│       │   ├── RestockSweets.jsx  # Restock interface
-│       │   └── ViewSweets.jsx     # Sweet list table
-│       ├── App.jsx            # Main routing setup
-│       ├── App.css            # App styling
-│       ├── index.css          # Global styles
-│       └── main.jsx           # React app bootstrap
-└── .env                       # Frontend environment variables
 
 ## 🧪 Test Report
 
