@@ -3,19 +3,31 @@ A full-stack web application to manage a sweet shop’s inventory — add, view,
 
 🚀 Features:
 🔄 Add new sweets with name, category, price, and quantity
+
 📋 View all sweets in a searchable/sortable list
+
 🛒 Purchase sweets and auto-reduce stock
+
 📦 Restock sweets to update inventory
+
 ❌ Delete any sweet if discontinued
+
 🧪 Fully tested backend (Jest + Supertest) and frontend
 
 🛠 Tech Stack
+
 Layer	Tech
+
 Frontend	React + Tailwind CSS
+
 Backend	Express.js + Node.js
+
 Database	MongoDB (Mongoose)
+
 API Client	Axios
+
 Testing	Jest, Supertest, React Testing Library
+
 Dev Tools	Vite / CRA, Nodemon, ESLint
 
 <img width="1919" height="983" alt="Screenshot 2025-07-16 224111" src="https://github.com/user-attachments/assets/b51066f5-2904-425d-9b3d-a7600e412692" />
