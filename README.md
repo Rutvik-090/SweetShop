@@ -1,10 +1,98 @@
 # 🍬 Sweet Shop Management System
 
-A full-stack web application to manage a sweet shop’s inventory — **add, view, purchase, and restock** sweets in various categories.
-
-> Built using **MongoDB, Express, React, and Node.js (MERN)** and tested with **Jest + Supertest**.
+A full-stack inventory management system for sweet shops, built using the **MERN stack (MongoDB, Express, React, Node.js)**. It allows users to **add, view, purchase, restock, and delete sweets**, and includes **fully tested backend and frontend logic**.
 
 ---
+
+## 📦 Project Setup
+
+## 📦 Prerequisites
+
+Make sure you have the following tools installed **before** setting up the project:
+
+| Tool            | Minimum Version | Installation Guide                     |
+|-----------------|-----------------|----------------------------------------|
+| [Node.js](https://nodejs.org/)     | 16.x or higher  | https://nodejs.org/en/download/          |
+| [npm](https://www.npmjs.com/)      | 8.x or higher   | Comes with Node.js                      |
+| [MongoDB](https://www.mongodb.com/atlas/database) | Any version (Atlas or Local) | https://www.mongodb.com/try/download/community |
+| [Git](https://git-scm.com/)        | Latest          | https://git-scm.com/downloads            |
+
+### ✅ Optional (For Dev Efficiency)
+
+| Tool              | Purpose                        |
+|-------------------|--------------------------------|
+| [Nodemon](https://www.npmjs.com/package/nodemon) | Auto-restart server on file change |
+| [Vite](https://vitejs.dev/)                      | Fast frontend development (used in this project) |
+| [Postman](https://www.postman.com/)              | API testing tool (optional but recommended) |
+
+ 1. Clone the Project
+  git clone https://github.com/your-username/sweet-shop.git
+  cd sweet-shop
+
+ 2. Setup the Backend
+  cd backend
+
+  # Install dependencies
+    npm install
+
+  # Create .env file
+    echo "PORT=5000
+    MONGO_URI=your_mongodb_uri_here" > .env
+
+  # Run backend
+    npm run dev
+
+ 3. Setup the Frontend
+  cd ../frontend
+
+  # Install dependencies
+    npm install
+
+  # Create .env file
+    echo "VITE_BACKEND_URL=http://localhost:5000" > .env
+
+  # Run frontend
+    npm run dev
+
+## URLs to Visit
+  Frontend: http://localhost:5173
+
+  Backend: http://localhost:5000/sweets/view (API test)
+
+  
+
+
+## 🧪 Test Report
+
+## ✅ Backend Tests (Jest + Supertest)
+    cd backend
+    npm test
+
+## Sample output:
+PASS  tests/sweetRoutes.test.js
+✓ should add a sweet (40ms)
+✓ should return all sweets (20ms)
+✓ should purchase a sweet (22ms)
+✓ should restock a sweet (18ms)
+✓ should delete a sweet (17ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       5 passed, 5 total
+
+## ✅ Frontend Tests (React Testing Library)
+## Run:
+    cd frontend
+    npm test
+
+## Sample output:   
+PASS  __tests__/Add.test.jsx
+✓ renders all form fields (30ms)
+✓ submits form with valid data (50ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+
+
 
 ## 🚀 Features
 
@@ -29,6 +117,8 @@ A full-stack web application to manage a sweet shop’s inventory — **add, vie
 | **Dev Tools**| Vite / CRA, Nodemon, ESLint                |
 
 ---
+
+
 
 ## 📸 Preview
 
